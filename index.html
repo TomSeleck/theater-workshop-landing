@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theater Workshop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            direction: rtl;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2em;
+        }
+        .social-links {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+        .social-links a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background: white;
+            border-radius: 50%;
+            font-size: 24px;
+            text-decoration: none;
+            color: black;
+        }
+        .social-links img {
+            width: 24px;
+            height: 24px;
+        }
+        .form-group {
+            margin: 10px 0;
+        }
+        input {
+            width: 90%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            text-align: right;
+        }
+        button {
+            background: #ff5e62;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #e04b50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Theater Workshop</h1>
+        <p id="business-description">[Business description will go here]</p>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="שם מלא" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" placeholder="מספר טלפון" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="אימייל" required>
+            </div>
+            <button type="submit">שליחת פרטים</button>
+        </form>
+        <div class="social-links">
+            <a href="#" id="website-link">🌐</a>
+            <a href="#" id="instagram-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
